@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    border: 0px solid gray;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px;
+    padding-top: 3rem;
+    padding-left:10rem;
+    width: 40Vw;
+    height: 70vh;
+    margin-top: 3rem;
+    line-height: 25px;
+}
+span{
+    font-size: 34px;
+    letter-spacing: -5px;
+}
+#G{
+    color: #4285F4;
+    font-family:sans-serif;
+    padding-left: 180px;
+}
+#o1{
+  color: #EA4335;
+}
+#o2{
+  color: #FBBC05;
+}
+#g{
+ color: #4285F4;
+}
+#l{
+    color: #34A853;
+}
+#e{
+    color: #EA4335;
+}
+#Signin{
+    margin-left:100px;
+    padding-top: 20px;
+    font-family:  sans-serif;
+    font-size: 20px;
+}
+h4{
+    padding-left: 130px;
+    color: gray;
+    padding-top: 10px;
+}
+.container .form input{
+    width:400px;
+    height: 35px;
+    margin-left: -70px;
+    padding-left: 10px;
+    border: 0px solid gray;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px;
+    margin-top: 10px;
+}
+#forgetPassword{
+    margin-left: -70px;
+    padding-top:  100px;
+    text-decoration: none;
+    color: #1962d8;
+    font-size: 20px;
+}
+#learnMore{
+    margin-top: 40px;
+    margin-left: -70px;
+    color: #333;
+}
+#learnMore a{
+ text-decoration: none;
+ color: #1962d8;
+ font-size: 20px;
+}
+#createAccount{
+    text-decoration: none;
+    color: #1962d8;
+    font-size: 20px;
+    margin-left: -70px;
+}
+#btn{
+    background-color: #1962d8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin-left: 230px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+.footer select{
+ margin-left:0px;
+ border: none;
+}
+.footer p{
+    margin-left: 150px;
+}
+/* mobile */
+@media screen  and (max-width:767px) {
+    .container{
+        width: 400px;
+    }
+    span{
+        font-size: 34px;
+        letter-spacing: -5px;
+    }
+    #G{
+        margin-left: -200px;
+    }
+    
+#Signin{
+    margin-left:0px;
+}
+h4{
+    margin-left: -180px;
+ 
+}
+.container .form input{
+    width:300px;
+    margin-left: -100px;  
+}
+#forgetPassword{
+    margin-left: -90px;
+  
+}
+#learnMore{
+    margin-left: -130px;
+}
+#createAccount{
+    margin-left: -130px;
+}
+#btn{
+    margin-left: 150px;
+    
+}
+.footer p{
+    margin-left: 30px;
+}
+}
+
+/* tablet */
+@media screen  and (min-width:767px) and (max-width:1024px) {
+    .container{
+        width: 500px;
+    }
+    span{
+        font-size: 34px;
+        letter-spacing: -5px;
+    }
+    #G{
+        margin-left: -160px;
+    }
+    
+#Signin{
+    margin-left:40px;
+}
+h4{
+    margin-left: -130px;
+ 
+}
+.container .form input{
+    width:400px;
+    margin-left: -100px;  
+}
+#forgetPassword{
+    margin-left: -90px;
+    
+}
+#learnMore{
+    margin-left: -130px;
+}
+#createAccount{
+    margin-left: -130px;
+}
+#btn{
+    margin-left: 150px;
+    
+}
+.footer p{
+    margin-left: 30px;
+}
+}
+/* desk top */
+@media screen  and (min-width:1024px) {
+    .container{
+        width:600px;
+    }
+    span{
+        font-size: 34px;
+        letter-spacing: -5px;
+    }
+    #G{
+        color: #4285F4;
+        font-family:sans-serif;
+        margin-left: -90px;
+    }
+    
+#Signin{
+    padding-left:0px;
+   
+}
+h4{
+    margin-left: -80px;
+ 
+}
+.container .form input{
+    width:500px;
+    margin-left: -100px;  
+}
+#forgetPassword{
+    margin-left: -90px;
+
+}
+#learnMore{
+    margin-left: -130px;
+}
+#createAccount{
+    margin-left: -130px;
+}
+#btn{
+    margin-left: 150px;
+    
+}
+.footer p{
+    margin-left: 30px;
+}
+
+}
